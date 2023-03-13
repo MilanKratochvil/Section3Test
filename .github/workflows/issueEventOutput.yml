@@ -3,6 +3,6 @@ on: issues
 jobs:
   output:
     runs-on: ubuntu-latest
-      steps:
-        - name: report
-          run: echo "${{ toJSON(github) }}"
+    steps:
+      - name: report
+        run: echo "${{ toJSON(github) }}"
